@@ -1,0 +1,26 @@
+.docsumo-login-container {
+    height: 100vh;
+    background: url('https://app.docsumo.com/static/images/background.9aa59a405e8258d81555.png') no-repeat 100% 100%;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    min-width: 1024px;
+    padding: 0 120px;
+    .login-container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1272px;
+        margin-top: 68px;
+        .login-outlet {
+            margin-top: 68px;
+        }
+    }
+    &.not-found {
+        .login-container {
+            color: white;
+            font-size: 24px;
+        }
+    }
+}

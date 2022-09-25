@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    src: local("Lato Light"),local("Lato-Light"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-300.bbbd26aeee9c5b967e35.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-300.ba2452bdc790a4fee052.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 300;
+    src: local("Lato Light Italic"),local("Lato-LightItalic"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-300italic.7d718d7299ab7f9fab17.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-300italic.06eb177ee6c1960bcd79.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato Regular"),local("Lato-Regular"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-regular.f1a4a058fbba1e35a406.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-regular.62fb51e9e645f6359923.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    src: local("Lato Italic"),local("Lato-Italic"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-italic.b45e52f342dc29c8553f.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-italic.c4082958a18f04bd32a3.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Lato Bold"),local("Lato-Bold"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-700.7fbbfd1610770d594aef.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-700.96759e32fdc800c78b52.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 700;
+    src: local("Lato Bold Italic"),local("Lato-BoldItalic"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-700italic.c66215e09d2420885ad1.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-700italic.0a06ba1bdf385495f267.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    src: local("Lato Black"),local("Lato-Black"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-900.f2de2c6ec69b0c11f1bc.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-900.d79dd0661ba130ec7a7e.woff) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 900;
+    src: local("Lato Black Italic"),local("Lato-BlackItalic"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-900italic.fd67cf72cde7716bdadf.woff2) format("woff2"),url(https://app.docsumo.com/static/fonts/lato-v14-latin-900italic.e792d6c62329e025ca1c.woff) format("woff")
+}
+
+body {
+  margin: 0;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root, .App {
+    height: 100%;
+    width: 100%;
+    font-family: Lato,sans-serif;
+}

@@ -1,0 +1,52 @@
+.ds-input {
+    text-align: left;
+    margin-top: 28px;
+
+    label {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-bottom: 6px;
+        display: inline-block;
+        color: rgba(24,24,24,.8);
+        text-align: left;
+    }
+    .ds-input-wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        position: relative;
+        input {
+            width: 100%;
+            height: 16px;
+            outline: none;
+            padding: 11px 14px;
+            border-radius: 4px;
+            background-color: #fff;
+            border: 1px solid #a3adce;
+            font: normal 500 16px/1 Lato,sans-serif;
+            &::placeholder {
+                padding-left: 10px;
+                font-size: 14px;
+                line-height: 16px;
+                color: #373a3c;
+                mix-blend-mode: normal;
+                opacity: .4
+            }
+            &.error {
+                border-color: red;
+            }
+        }
+        img {
+            cursor: pointer;
+            position: absolute;
+            width: 20px;
+            right: 8px;
+            top: 8px;
+        }
+    }
+    span.error-message {
+        font-size: 12px;
+        color: red;
+        font-style: italic;
+    }
+}
